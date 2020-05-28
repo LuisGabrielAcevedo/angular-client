@@ -1,0 +1,54 @@
+<div class="screen-container">
+  <div class="screen-content">
+    <div class="screen-header">
+      <div class="screen-header-name-cont">
+        <span style="font-size: 20px;">Hola!</span>
+        <span>@javierramos</span>
+      </div>
+      <div class="screen-header-img-cont">
+        <div class="screen-circle-1">
+          <img
+            class="screen-card-image"
+            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
+          />
+        </div>
+        <div class="screen-circle-2">
+          <mat-icon class="screen-icon-green">edit</mat-icon>
+        </div>
+      </div>
+    </div>
+    <div class="screen-content-box">
+      <div class="screen-date-info" *ngFor="let item of [1, 2]">
+        <div class="screen-date-info-header">
+          <span>INICIASTE TRATAMIENTO</span>
+        </div>
+        <span>10-04-2020</span>
+      </div>
+      <div class="screen-divider"></div>
+      <div class="screen-card" *ngFor="let item of [1, 2]">
+        <div class="screen-card-column">
+          <span>Ahora en contacto con</span>
+          <span>@carloshernadez</span>
+          <div class="screen-card-star">
+            <app-start-rating></app-start-rating>
+          </div>
+        </div>
+        <img
+          class="screen-card-image"
+          src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="screen-footer">
+    <div class="screen-footer-1">
+      <mat-icon class="screen-icon-white">more_horiz</mat-icon>
+    </div>
+    <div class="screen-footer-2">
+      <mat-icon class="screen-icon-white">favorite_border</mat-icon>
+    </div>
+    <div class="screen-footer-3">
+      <mat-icon class="screen-icon-green">view_module</mat-icon>
+    </div>
+  </div>
+</div>
