@@ -1,1 +1,66 @@
-<p>screen9 works!</p>
+<div class="screen-container">
+  <div class="screen-row">
+    <mat-icon class="screen-back-icon">
+      chevron_left
+    </mat-icon>
+    <span class="screen-title">PACIENTES</span>
+  </div>
+  <div class="screen-subtitle">
+    <div class="screen-column">
+      <span class="screen-new">NUEVO</span>
+      <span>@javierramos</span>
+    </div>
+    <img
+      class="screen-image"
+      src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
+    />
+  </div>
+  <button mat-raised-button class="screen-work-button">
+    TRABAJAR
+  </button>
+  <button mat-raised-button class="screen-message-button">
+    MENSAJE
+  </button>
+  <div class="screen-content">
+    <div class="screen-content-box">
+      <div class="screen-scroll">
+        <form class="screen-form">
+          <mat-form-field floatLabel="always">
+            <mat-label>Nombre del paciente</mat-label>
+            <input matInput autocomplete="off" />
+          </mat-form-field>
+          <mat-form-field floatLabel="always">
+            <mat-label>Edad</mat-label>
+            <input matInput autocomplete="off" />
+          </mat-form-field>
+          <mat-form-field floatLabel="always">
+            <mat-label>Genero</mat-label>
+            <mat-select>
+              <!-- <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{ food.viewValue }}
+                  </mat-option> -->
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field floatLabel="always">
+            <mat-label>Telefono 1</mat-label>
+            <input matInput autocomplete="off" />
+            <mat-icon class="screen-icon-grey" matPrefix>
+              phone
+            </mat-icon>
+          </mat-form-field>
+          <mat-form-field floatLabel="always">
+            <mat-label>Telefono 2</mat-label>
+            <input matInput autocomplete="off" />
+            <mat-icon class="screen-icon-grey" matPrefix>
+              phone
+            </mat-icon>
+          </mat-form-field>
+          <mat-form-field floatLabel="always">
+            <mat-label>Correo</mat-label>
+            <input matInput autocomplete="off" />
+          </mat-form-field>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

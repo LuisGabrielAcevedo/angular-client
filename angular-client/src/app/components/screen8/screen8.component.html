@@ -11,12 +11,22 @@
       <div class="screen-scroll">
         <div class="screen-image-cont">
           <img
-            src="../../../assets/images/default.png"
+            [src]="fileSelected || defaultImage"
             alt="default"
             class="screen-image"
           />
         </div>
-        <span class="screen-text" style="margin-bottom: 30px;">
+        <input
+          style="display: none;"
+          #fileInput
+          type="file"
+          (change)="fileChangeEvent($event)"
+        />
+        <span
+          class="screen-text"
+          style="margin-bottom: 30px;"
+          (click)="fileInput.click()"
+        >
           Agrega tu image
         </span>
         <mat-form-field appearance="outline" floatLabel="always">

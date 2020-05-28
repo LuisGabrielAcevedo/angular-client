@@ -7,12 +7,15 @@
       </div>
       <div class="screen-header-img-cont">
         <div class="screen-circle-1">
-          <img
-            class="screen-card-image"
-            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
-          />
+          <img class="screen-card-image" [src]="fileSelected || defaultImage" />
         </div>
-        <div class="screen-circle-2">
+        <input
+          style="display: none;"
+          #fileInput
+          type="file"
+          (change)="fileChangeEvent($event)"
+        />
+        <div class="screen-circle-2" (click)="fileInput.click()">
           <mat-icon class="screen-icon-green">edit</mat-icon>
         </div>
       </div>

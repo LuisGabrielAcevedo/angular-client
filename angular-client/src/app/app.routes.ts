@@ -7,6 +7,7 @@ import { Screen6Component } from "./components/screen6/screen6.component";
 import { Screen5Component } from "./components/screen5/screen5.component";
 import { Screen7Component } from "./components/screen7/screen7.component";
 import { Screen8Component } from "./components/screen8/screen8.component";
+import { Screen9Component } from "./components/screen9/screen9.component";
 export const routes: Routes = [
   {
     path: "",
@@ -44,5 +45,9 @@ export const routes: Routes = [
   {
     path: "screen8",
     component: Screen8Component,
+  },
+  {
+    path: "screen9",
+    component: Screen9Component,
   },
 ];
