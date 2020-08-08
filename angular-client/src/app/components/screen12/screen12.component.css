@@ -125,7 +125,7 @@
   display: flex;
   background-color: white;
   position: relative;
-  height: calc(100vh - 268px);
+  height: calc(100vh - 269px);
   overflow-y: auto;
   flex-direction: column;
 }
