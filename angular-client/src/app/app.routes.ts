@@ -8,6 +8,8 @@ import { Screen5Component } from "./components/screen5/screen5.component";
 import { Screen7Component } from "./components/screen7/screen7.component";
 import { Screen8Component } from "./components/screen8/screen8.component";
 import { Screen9Component } from "./components/screen9/screen9.component";
+import { Screen10Component } from "./components/screen10/screen10.component";
+import { Screen11Component } from "./components/screen11/screen11.component";
 export const routes: Routes = [
   {
     path: "",
@@ -49,5 +51,13 @@ export const routes: Routes = [
   {
     path: "screen9",
     component: Screen9Component,
+  },
+  {
+    path: "screen10",
+    component: Screen10Component,
+  },
+  {
+    path: "screen11",
+    component: Screen11Component,
   },
 ];
