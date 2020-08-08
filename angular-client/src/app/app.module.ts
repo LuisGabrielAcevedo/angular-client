@@ -14,6 +14,7 @@ import { Screen8Component } from "./components/screen8/screen8.component";
 import { Screen9Component } from "./components/screen9/screen9.component";
 import { Screen10Component } from "./components/screen10/screen10.component";
 import { Screen11Component } from "./components/screen11/screen11.component";
+import { Screen12Component } from "./components/screen12/screen12.component";
 import { RouterModule } from "@angular/router";
 import { routes } from "./app.routes";
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -39,6 +40,7 @@ import { MatNativeDateModule } from "@angular/material/core";
     Screen9Component,
     Screen10Component,
     Screen11Component,
+    Screen12Component,
     StartRatingComponent,
   ],
   imports: [
